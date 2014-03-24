@@ -1,7 +1,9 @@
+# Thanks David Reiman - https://github.com/elreimundo
+
 NUMBER_OF_TESTS = 1_000_000
 
 class Shelf
-  attr_reader :showing, :hidden
+  # attr_reader :showing, :hidden
 
   def initialize(*sides)
     @sides = sides
